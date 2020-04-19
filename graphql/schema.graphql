@@ -15,6 +15,7 @@ type Author {
   name: String!
 }
 
+# Queries can fetch a list of libraries
 type Query {
   libraries: [Library]
 }
